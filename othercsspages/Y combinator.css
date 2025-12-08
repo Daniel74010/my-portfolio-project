@@ -501,20 +501,303 @@ span {
 
 /* ---top-yc-sect--- */
 .top-yc-sect {
+    /* border: thin solid red; */
     background-color: #F5F5EE;
 }
 
 .top-yc-sect h1 {
-    border: thin solid red;
+    /* border: thin solid red; */
     font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .wrapper {
-    border: thin solid red;
-    width: 80%;
-    margin: 10px auto;
+    /* border: thin solid red; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 50px;
+}
+
+.box {
+    /* border: thin solid red; */
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 15px; */
+}
+
+
+.stripe {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.airbnb {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instacart {
+    /* border: solid red; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doordash {
+    /* border: solid red; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cruise {
+    /* border: solid red; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitch {
+    /* border: solid red; */
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinbase {
+    /* border: solid red; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagerduty {
+    /* border: solid red; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faire {
+    /* border: solid red; */
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brex {
+    /* border: solid red; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deel {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rippling {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reddit {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gusto {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexport {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbox {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.razorpay {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scale {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitlab {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benchling {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fivetran {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rappi {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkr {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zapier {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatnot {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.podium {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.webflow {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.zepto {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.groww {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.segment {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ironclad {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---top-yc-sect---media-query--- */
+
+
+@media(max-width:1024px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 1em;
+    }
+}
+
+@media(max-width:815px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media(max-width:565px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+
+/* ---we-sect--- */
+.text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
