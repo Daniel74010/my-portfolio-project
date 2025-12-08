@@ -137,7 +137,6 @@ main span {
 
 
 .main-img {
-    animation: image .2s 2s infinite;
     /* border: 2px solid red; */
     width: 250px;
     height: 300px;
@@ -693,6 +692,10 @@ footer span {
     background-color: #ff5722;
 }
 
+.numbre p {
+    color: white;
+}
+
 .mail {
     display: flex;
     justify-content: center;
@@ -710,6 +713,10 @@ footer span {
     position: absolute;
     bottom: 80px;
     background-color: #ff5722;
+}
+
+.mail p {
+    color: white;
 }
 
 
