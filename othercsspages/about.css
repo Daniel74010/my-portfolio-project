@@ -77,7 +77,7 @@ header {
 
 @media(max-width:500px) {
     header {
-        gap: 8em;
+        gap: 6em;
     }
 }
 
@@ -599,9 +599,7 @@ h1 {
 }
 
 @media(max-width:376px) {
-    h1 {
-        font-size: 1.2em;
-    }
+
 
     .grid {
         width: 230px;
@@ -628,6 +626,13 @@ h1 {
     color: #ff5722;
     text-decoration: underline;
     text-decoration-color: white;
+}
+
+
+@media(max-width:768px) {
+    .services-sect h1 {
+        font-size: 2em;
+    }
 }
 
 
@@ -763,7 +768,25 @@ footer span {
     gap: 1em;
 }
 
-input {
+.input1 {
+    border: 2px solid #383838;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #383838;
+    color: white;
+}
+
+.input2 {
+    border: 2px solid #383838;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #383838;
+    color: white;
+}
+
+.input3 {
     border: 2px solid #383838;
     width: 200px;
     height: 40px;
@@ -773,13 +796,14 @@ input {
 }
 
 
-.input3 {
+.input4 {
     border: 2px solid #383838;
     width: 640px;
     /* height: 200px; */
     padding-top: 20px;
     padding-bottom: 150px;
     margin-top: 20px;
+    background-color: #383838;
     border-color: #383838;
 }
 
@@ -808,13 +832,36 @@ input:hover {
         display: none;
     }
 
-    .input1 {
-        display: flex;
+    .input4 {
+        width: 430px;
+    }
+
+    footer h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media(max-width:525px) {
+    .con {
+        width: 300px;
+    }
+
+    .message1 {
+        display: grid;
+        grid-template-columns: auto;
         justify-content: center;
         align-items: center;
     }
 
+    .input1 {
+        width: 300px;
+    }
+
     .input3 {
-        width: 300;
+        width: 300px;
+    }
+
+    .input4 {
+        width: 300px;
     }
 }
