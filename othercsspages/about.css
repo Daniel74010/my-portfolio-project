@@ -782,6 +782,7 @@ footer span {
     margin-top: 20px;
     background-color: #383838;
     color: white;
+    font-size: 1.2em;
 }
 
 .input2 {
@@ -791,6 +792,7 @@ footer span {
     margin-top: 20px;
     background-color: #383838;
     color: white;
+    font-size: 1.2em;
 }
 
 .input3 {
@@ -800,6 +802,7 @@ footer span {
     margin-top: 20px;
     background-color: #383838;
     color: white;
+    font-size: 1.2em;
 }
 
 
@@ -813,6 +816,7 @@ footer span {
     background-color: #383838;
     border-color: #383838;
     color: white;
+    font-size: 1.2em;
 }
 
 input:hover {
