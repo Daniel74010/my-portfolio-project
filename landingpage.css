@@ -9,7 +9,7 @@
 
 body {
     /* background-color: #2c1762 #da0872; */
-    background-image: linear-gradient(#000000b3), url(./images/portfolio\ background.png);
+    background-image: url(./images/portfolio\ background.png);
     /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
@@ -256,3 +256,8 @@ li a {
     }
 
 }
+
+
+
+
+/* linear-gradient(#000000b3), */
