@@ -1092,11 +1092,11 @@ p span {
 
 @media(max-width:610px) {
     .header h3 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .header h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
