@@ -686,9 +686,6 @@ h1 {
 .service2 {
     /* border: thin solid red; */
     border: solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-left: 120px;
 }
 

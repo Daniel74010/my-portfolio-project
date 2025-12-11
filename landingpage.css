@@ -8,14 +8,14 @@
 }
 
 body {
-    background-color: #2c1762 #da0872;
+    /* background-color: #2c1762 #da0872; */
     background-image: linear-gradient(#000000b3), url(./images/portfolio\ background.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
     /* background-image: linear-gradient(to right, #2c1762, #2c1762, #da0872); */
     /* background-image: linear-gradient(to right, #000059, rgba(9, 9, 144, 0.7)); */
-    height: 100vh;
+    /* height: 100vh; */
     /* width: 100%; */
     /* display: flex; */
     /* justify-content: center; */
