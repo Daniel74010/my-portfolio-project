@@ -9,12 +9,10 @@
 
 body {
     /* background-color: #2c1762 #da0872; */
-    background-image: url(./images/portfolio\ background.png);
-    /* background-repeat: no-repeat; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(./images/portfolio\ background.png);
     background-position: center;
     background-size: cover;
-    /* height: 100vh; */
-    /* width: 100%; */
+    height: 100vh;
     position: relative;
 }
 
@@ -69,6 +67,15 @@ body {
 
 /* ---media-query--- */
 @media(max-width:620px) {
+    body {
+        /* background-color: #2c1762 #da0872; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(./images/portfolio\ background.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+
     .nav-link {
         width: 100%;
         display: flex;
@@ -256,8 +263,3 @@ li a {
     }
 
 }
-
-
-
-
-/* linear-gradient(#000000b3), */
